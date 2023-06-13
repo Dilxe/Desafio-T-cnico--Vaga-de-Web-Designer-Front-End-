@@ -83,7 +83,7 @@
                 <h1 class="display-4 text-white">Ciências da Nutrição</h1>
                 <a class="text-white" href="">1º Semestre</a>
                 <i class="far fa-square text-primary px-2"></i>
-                <a href="9554-2semestre.php">2º Semestre</a>
+                <a href="9554-2semestre.html">2º Semestre</a>
             </div>
         </div>
     </div>
@@ -108,27 +108,39 @@
 						</tr>
 						  <tr>
 							<td>Alimentos e Composição Nutricional</td>
-							<?php include("php/prof.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoProf"></output></td>
+							<td><output id="salario"></output> €</td>
 						  </tr>
 						  <tr>
 							<td>Anatomia</td>
-							<?php include("php/prof.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoProf"></output></td>
+							<td><output id="salario"></output> €</td>
 						  </tr>
 						  <tr>
 							<td>Biologia Celular</td>
-							<?php include("php/prof.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoProf"></output></td>
+							<td><output id="salario"></output> €</td>
 						  </tr>
 						  <tr>
 							<td>Física e Matemática</td>
-							<?php include("php/prof.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoProf"></output></td>
+							<td><output id="salario"></output> €</td>
 						  </tr>
 						  <tr>
 							<td>História da Alimentação</td>
-							<?php include("php/prof.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoProf"></output></td>
+							<td><output id="salario"></output> €</td>
 						  </tr>
 						  <tr>
 							<td>Química I</td>
-							<?php include("php/prof.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoProf"></output></td>
+							<td><output id="salario"></output> €</td>
 						  </tr>
 					</tbody>
 				</table>
@@ -147,123 +159,213 @@
 					<tbody>
 						  <tr>
 							<td>Alimentos e Composição Nutricional</td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td>Anatomia</td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td>Biologia Celular</td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td>Física e Matemática</td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td>História da Alimentação</td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td>Química I</td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 						  <tr>
 							<td></td>
-							<?php include("php/aluno.php"); ?>
+							<td><output id="nome"></output></td>
+							<td><output id="nascimentoAluno"></output></td>
+							<td><output id="numMatr"></output></td>
+							<td><output id="nota"></output></td>
 						  </tr>
 					</tbody>
 				</table>
@@ -296,10 +398,9 @@
     <script src="js/main.js"></script>
 	
 	<!-- Meus -->
-    <script src="js/apelidos.js"></script>
     <script src="js/nomes.js"></script>
     <script src="js/rng.js"></script>
 	
 </body>
 
-	    </html>
+	</html>
